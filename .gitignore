@@ -1,0 +1,20 @@
+# Application
+public/app/upgrade
+public/app/uploads/*
+!public/app/uploads/.gitkeep
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+!vendor/.gitkeep
+.cache-loader
+
+node_modules
+npm-debug.log
+yarn-error.log
+resources/assets/config-local.json
+
+.vagrant

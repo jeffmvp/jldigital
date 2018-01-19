@@ -1,0 +1,32 @@
+.Slider {
+    padding: 15px 0;
+    .Slider-card {
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+        display: block;
+        position: relative;
+        @include purpleWashed();
+        &:hover {
+            .Slider-content {
+                bottom:95px;
+            }
+        }
+    }
+    .Slider-content {
+        font-size: 24px;
+        font-family: $heading;
+        color: $white;
+        display: block;
+        text-align: left;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 10;
+        transition:.75s;
+    }
+}

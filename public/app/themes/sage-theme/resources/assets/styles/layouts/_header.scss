@@ -1,0 +1,95 @@
+// .Header {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     z-index: 2000;
+//     background: $white;
+//     transition: 0.5s;
+//     opacity: 1;
+//     overflow: hidden;
+//     border-bottom:1px solid $purple;
+//     @include mobile {
+//         height: 80px;
+//     }
+//     ul {
+//         margin: 0;
+//         padding: 0;
+//     }
+//     .Header-sub {
+//         background: $black;
+//         color: $white;
+//         .menu {
+//             padding-top: 0;
+//             margin: 5px 0;
+//         }
+//         a {
+//             font-size: 13px;
+//             text-transform: lowercase;
+//             color: $white;
+//         }
+//     }
+//     .Header-logo {
+//         max-width: 200px;
+//         display: inline-block;
+//         img {
+//             display: block;
+//         }
+//         @include mobile {
+//             max-width: 115px;
+//         }
+//     }
+//     .row .column-25 {
+//         @include mobile {
+//             flex: 0 0 100%;
+//             max-width: 100%;
+//         }
+//     }
+//     .row .column-75 {
+//         @include mobile {
+//             flex: 0 0 100%;
+//             max-width: 100%;
+//         }
+//     }
+//     .menu {
+//         @include mobile {
+//             margin: 0;
+//         }
+//     }
+//     .menu-main-container {
+//         list-style-type: none;
+//         li {
+//             display: inline-block;
+//             padding: 30px 15px;
+//             &:last-child {
+//                 a {
+//                     padding-right: 0;
+//                 }
+//             }
+//             &:first-child {
+//                 a {
+//                     padding-left: 0;
+//                 }
+//             }
+//             &.current_page_item {
+//                 a {
+//                     color:$purple;
+//                 }
+//             }
+//             a {
+//                 font-family: $body;
+//                 font-size: 18px;
+//                 color: $black;
+//                 padding: 0 20px;
+//                 font-weight: 400;
+//                 padding: 0;
+//                 padding-bottom: 5px;
+//                 &:hover {
+//                     color: $purple;
+//                     opacity: 1;
+//                     border-bottom: 1px solid $black;
+//                 }
+//             }
+//         }
+//     }
+// }

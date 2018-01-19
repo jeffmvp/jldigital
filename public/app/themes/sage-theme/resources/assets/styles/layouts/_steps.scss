@@ -1,0 +1,37 @@
+.Steps {
+    padding:15px 0;
+    .Steps-heading {
+        border:1px solid $lightPurple;
+        padding:20px;
+        font-weight:700;
+        font-family:$heading;
+        text-transform:uppercase;
+        color:$lightPurple;
+        font-size:24px;
+    }
+    .Steps-content {
+        padding:30px 20px;
+    }
+    .Steps-numbering {
+        font-family:$body;
+        font-size:18px;
+        color:$grey;
+        letter-spacing:1px;
+        text-transform:uppercase;
+    }
+    .Steps-single {
+        &:nth-child(2) {
+            .Steps-heading {
+                background:$lightPurple;
+                color:$white;
+            }
+        }
+        &:nth-child(3) {
+            .Steps-heading {
+                background:$purple;
+                color:$white;
+                border-color:$purple;
+            }
+        }
+    }
+}

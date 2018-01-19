@@ -1,0 +1,58 @@
+/** Colors */
+$brand-primary: #27ae60;
+$txt-primary:   #000;
+$body-bg:       #fff; 
+
+
+/** Box Model  */
+$spacer:                2rem;
+
+/** Typographu */
+$sans-serif:  "Arial", Helvetica, Verdana, sans-serif;
+$serif: Merriweather, Georgia, 'Times New Roman', serif;
+$mono: 'Source Code Pro', Courier, mono;
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+$p-size: 18px;
+
+
+
+//PassAlong Colors
+$green: #000000;
+$orange: #000000;
+$purple: #6346b9;
+$purpleGradient: #5c4abd;
+$lightPurple: #B1A3DA;
+$magenta: #ab218e;
+$magentaGradient: #ab218e;
+$black: #000;
+$absoluteBlack: #000;
+$white: #ffffff;
+$grey: #767676;
+
+
+
+//Fonts
+$heading: 'Unica One';
+$body: 'Vollkorn';
+$bodyAlt: 'Vollkorn', 'Vollkorn';
+$bodyFooter: 'Vollkorn';
+$bodySize: 18px;
+
+
+//Functions
+
+
+
+
+@function set-notification-text-color($color) {
+    @if (lightness($color) > 70) {
+      @return $darkGrey; // Lighter background, return dark color
+    } @else {
+      @return $grey; // Darker background, return light color
+    }
+}

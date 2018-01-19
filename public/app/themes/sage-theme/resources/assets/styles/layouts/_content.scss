@@ -1,0 +1,26 @@
+.Content {
+    p {
+        font-size:18px;
+        font-family:$body;
+        &:last-child {
+            margin-bottom:0;
+        }
+        &:only-child {
+            margin-bottom:0;
+        }
+        @include mobile {
+            font-size:20px;
+        }
+    }
+    padding-top:65px;
+    padding-bottom:15px; 
+    &:last-child {
+        padding-bottom:65px;
+    }
+    img {
+        @include mobile {
+            max-width:500px;
+        }
+    }
+    
+}

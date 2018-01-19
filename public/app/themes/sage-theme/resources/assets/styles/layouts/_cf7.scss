@@ -1,0 +1,28 @@
+.wpcf7 {
+    label,span,input,textarea {
+        font-size:18px;
+        font-family:$body;
+        max-width:100%;
+        width:100%;
+    }
+    text,textarea {
+        padding:10px;
+    }
+    .screen-reader-response, .wpcf7-not-valid-tip, .wpcf7-validation-errors {
+        color:rgb(177, 0, 0);
+    }
+    .wpcf7-response-output {
+        margin-top:20px;
+    }
+    label {
+        padding-top:20px;
+        display:block;
+        font-weight:600;
+        color:$purple;
+    }
+    textarea{
+        width:100% !important;
+        min-width:100%;
+        min-height:150px;
+    }
+}
